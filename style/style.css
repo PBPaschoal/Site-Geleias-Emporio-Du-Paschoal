@@ -1,0 +1,112 @@
+body {
+	background-color: rgb(250, 232, 232);
+}
+
+header {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	text-shadow: 1em 0em 1em rgb(122, 79, 50);
+}
+
+.sec-menu {
+	padding: 5px;
+	border-radius: 20px;
+	background-color: rgb(255, 255, 255);
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+	gap: 20px;
+}
+
+.container li {
+	list-style: none;
+}
+
+.container li a {
+	text-decoration: none;
+	color: rgb(247, 171, 104);
+	transition: 1s;
+}
+
+.container li a:hover {
+	color: rgb(250, 0, 0);
+}
+
+#descri {
+	margin-top: 15px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: rgb(250, 250, 250);
+	color: rgb(247, 171, 104);
+}
+
+.foto-geleia01 {
+	transition: 1s;
+}
+
+.foto-geleia01:hover {
+	color: rgb(0, 0, 0);
+}
+
+
+.foto-geleia01 img {
+	border: 2px inset rgb(247, 171, 104);
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+	margin-top: 20px;
+	padding: 2px;
+	border-radius: 2px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(247, 171, 104);
+}
+
+/* Sabores */
+
+.opcoes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+
+.opcoes li {
+	list-style: inline;
+}
+
+/* Mídia */
+
+.video-geleia {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+/* Contatos */
+
+.logos-img img {
+	width: 50px;
+	padding: 5px;
+}
+
+.contatos-gerais {
+	background-color: rgb(250, 250, 250);
+}
+
+.links a {
+	text-decoration: none;
+	color: rgb(247, 171, 104);
+	padding: 2px;
+}
